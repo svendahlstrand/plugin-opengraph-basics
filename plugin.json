@@ -4,17 +4,17 @@
 	"description": "Lets you toggle Open Graph metadata, choose whether to show preview cards, and decide if your photos should take center stage.",
 	"fields": [
 		{
-			"field": "params.opengraph.is_enabled",
+			"field": "params.opengraph_is_enabled",
 			"label": "Enable Open Graph",
 			"type": "boolean"
 		},
 		{
-			"field": "params.opengraph.uses_preview_cards",
+			"field": "params.opengraph_uses_preview_cards",
 			"label": "Use preview cards",
 			"type": "boolean"
 		},
 		{
-			"field": "params.opengraph.uses_photos_instead_of_preview_cards",
+			"field": "params.opengraph_uses_photos_instead_of_preview_cards",
 			"label": "Photos replaces preview cards",
 			"type": "boolean"
 		}
