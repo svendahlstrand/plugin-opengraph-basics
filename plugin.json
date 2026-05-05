@@ -1,5 +1,22 @@
 {
 	"version": "1.0.1",
 	"title": "Open Graph basics",
-	"description": "Includes either a photo or preview card."
+	"description": "Includes either a photo or preview card.",
+	"fields": [
+		{
+			"field": "params.opengraph.is_enabled",
+			"label": "Enable Open Graph",
+			"type": "boolean"
+		},
+		{
+			"field": "params.opengraph.uses_preview_cards",
+			"label": "Use preview cards",
+			"type": "boolean"
+		},
+		{
+			"field": "params.opengraph.uses_photos_instead_of_preview_cards",
+			"label": "Photos replaces preview cards",
+			"type": "boolean"
+		}
+	]
 }
