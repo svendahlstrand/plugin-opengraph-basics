@@ -1,7 +1,7 @@
 {
 	"version": "1.0.1",
 	"title": "Open Graph basics",
-	"description": "Includes either a photo or preview card.",
+	"description": "Lets you toggle Open Graph metadata, choose whether to show preview cards, and decide if your photos should take center stage.",
 	"fields": [
 		{
 			"field": "params.opengraph.is_enabled",
